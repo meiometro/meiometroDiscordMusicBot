@@ -1,0 +1,29 @@
+{
+  "name": "meiometroDiscordMusicBot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "musicBot.js",
+  "scripts": {
+    "start": "echo \"Error: no start specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "meio_metro",
+  "license": "MIT",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "discord.js": "^11.4.2",
+    "enmap": "^4.6.6",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "0.0.6",
+    "prism-media": "0.0.3",
+    "ps-node": "^0.1.6",
+    "simple-youtube-api": "^5.1.1",
+    "youtube-playlist-info": "^1.1.2",
+    "ytdl-core": "^0.29.1",
+    "ytsearcher": "^1.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
