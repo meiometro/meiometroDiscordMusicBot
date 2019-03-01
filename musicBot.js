@@ -36,12 +36,12 @@ exports.start = (client, options) => {
 
       console.log(`------- meio_metro Discord Music Bot -------\n> Version: ${PACKAGE.version}.\n> Node.js Version: ${process.version}\n------- meio_metro Discord Music Bot -------`);
       
-      if (musicbot.cooldown.exclude.includes("skip")) console.warn(`[MUSIC] Excluding SKIP CMD from cooldowns can cause issues.`);
-      if (musicbot.cooldown.exclude.includes("play")) console.warn(`[MUSIC] Excluding PLAY CMD from cooldowns can cause issues.`);
-      if (musicbot.cooldown.exclude.includes("remove")) console.warn(`[MUSIC] Excluding REMOVE CMD from cooldowns can cause issues.`);
-      if (musicbot.cooldown.exclude.includes("search")) console.warn(`[MUSIC] Excluding SEARCH CMD from cooldowns can cause issues.`);
+      if (musicbot.cooldown.exclude.includes("skip")) console.warn(`[MUSIC BOT] Excluding SKIP CMD from cooldowns can cause issues.`);
+      if (musicbot.cooldown.exclude.includes("play")) console.warn(`[MUSIC BOT] Excluding PLAY CMD from cooldowns can cause issues.`);
+      if (musicbot.cooldown.exclude.includes("remove")) console.warn(`[MUSIC BOT] Excluding REMOVE CMD from cooldowns can cause issues.`);
+      if (musicbot.cooldown.exclude.includes("search")) console.warn(`[MUSIC BOT] Excluding SEARCH CMD from cooldowns can cause issues.`);
 
-      setTimeout(() => { if (musicbot.musicPresence == true && musicbot.client.guilds.length > 1) console.warn(`[MUSIC] MusicPresence is enabled with more than one server!`); }, 2000);
+      setTimeout(() => { if (musicbot.musicPresence == true && musicbot.client.guilds.length > 1) console.warn(`[MUSIC BOT] MusicPresence is enabled with more than one server!`); }, 2000);
 
     });
 

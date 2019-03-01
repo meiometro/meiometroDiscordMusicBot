@@ -197,9 +197,6 @@ const executeQueue = (msg, queue) => {
 
 const playFunction = (msg, suffix, args) => {
 
-  console.log('playFunction');
-  
-
   if (msg.member.voiceChannel === undefined) {
     return msg.channel.send(musicbot.note('fail', `You're not in a voice channel.`));
   }
